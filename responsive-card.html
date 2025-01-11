@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Tailwind basics</title>
+</head>
+<body class="bg-slate-900 grid place-content-evenly h-screen overflow-auto">
+    <h1 class="text-white text-4xl m-4 hidden">Test</h1>
+    <div class="flex gap-4 items-center flex-col">
+        <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div>
+                    <img class="h-48 w-full object-cover md:h-full md:w-auto" src="https://images.pexels.com/photos/19807714/pexels-photo-19807714/free-photo-of-house-in-forest-in-evening.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+                <div  class="p-8" >
+                    <div class="uppercase tracking-wider text-sm text-indigo-500 font-semibold"> An Awesome Card</div>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:text-blue-500">Tailwind CSS is amazing once you understand the <span class="bg-yellow-300 p-[2px] px-[14px]">power</span> of it.</a>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi officia. Rem, error architecto ad ex veritatis vero asperiores assumenda autem fuga dicta, corrupti aliquam dignissimos. Sequi earum minima repellat!</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-6 w-full mx-auto bg-white rounded-xl shadow-lg flex flex-col items-center space-x-4  md:flex-row md:max-w-sm">
+            <div>
+                <img class="w-full max-w-80 pb-2 md:w-44" src="https://media.licdn.com/dms/image/v2/C5603AQFjunS8xGL1BQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1548622810938?e=1741824000&v=beta&t=h6KUZvTZlqg9HcfvaGT43k5txkJXfZE7MAKBEshu0L4" alt="">
+            </div>
+            <div>
+                <div class="text-2xl font-medium text-black">
+                    TailWind CSS
+                    <p class="text-slate-500 text-base">By Sunny Khanuja</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
